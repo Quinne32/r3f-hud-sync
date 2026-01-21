@@ -7,7 +7,7 @@ function HUD() {
 
   return (
     <div style={styles.hud}>
-      <h3>Interactive Exhibit</h3>
+      <h3>Interaction Log</h3>
       <p>Selected Object: {selectedObject || "None"}</p>
       <p>Total Interactions: {interactionLog.length}</p>
 
