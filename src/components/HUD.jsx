@@ -1,5 +1,6 @@
 import { useSceneStore } from "../store/sceneStore";
 
+
 function HUD() {
   const selectedObject = useSceneStore((state) => state.selectedObject);
   const interactionLog = useSceneStore((state) => state.interactionLog);
